@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project1.png";
+import project2 from "../assets/projects/project2.png";
+import project3 from "../assets/projects/project3.png";
+import project4 from "../assets/projects/project4.jpg";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with a knack for crafting robust and scalable 
 web applications. I have honed my skills in front-end technologies like React and Next.js. My goal is to leverage 
@@ -14,70 +14,71 @@ into a career where I continuously strive to learn and adapt to new challenges. 
 and enjoy solving complex problems to deliver high-quality solutions. 
 Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
-export const EXPERIENCES = [
+export const EDUCATION = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2022 - 2024",
+    Institute: "Institute of Software Engineering-Panadura",
+    description: `I am currently pursuing a Bachelor of Computer Science through the GDSE (Graduate Diploma in Software 
+    Engineering) program at the University of Bolton, Institute of Software Engineering, Panadura. This specialized 
+    program has provided me with a comprehensive education in both theoretical and practical aspects of computer 
+    science, focusing on the intricacies of software engineering.`,
+    technologies: ["Java", "MySQL", "React", "ReactNative","Angular"]
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "January-2019",
+    Institute: "British way English Academy, Kalutara",
+    description: `Diploma in English Language: Successfully completed with a Completed Pass, enhancing my communication 
+    skills and ability to work with diverse teams.`,
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "January-2020",
+    Institute: "Aquinas College of Higher Studies, Borella",
+    description: `Diploma in English Language and Literature (First Level): Completed the First Level at Aquinas College of Higher Studies, Borella. This qualification deepened 
+    my understanding of English language and literature, enriching my ability to engage in nuanced communication and 
+    analysis.`,
+
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2018 - Present",
+    Institute: "GCE ORDINARY LEVEL - Kaluatara Vidayalaya National School",
+    description: `Completed major barriers in mylife G.C.E Ordinary Level Examination in Kalutara Vidyalaya National
+     School in 2018.I was also very interested in my studies`,
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "The Coffee House clone app",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "The Coffee House clone is a React Native app that replicates a coffee shop's mobile interface. It features a sleek design for browsing the menu, checking promotions, and navigating effortlessly on both iOS and Android devices.",
+    technologies: ["Typescript", "JavaScript"],
   },
   {
-    title: "Task Management App",
+    title: "The Connect-4 Game",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Using OOP Concepts, I created a Connect 4 Game with Min Max Ai.with Monto Carlo Tree Search Algorithm.",
+    technologies: ["Java","JAVAFX","MySQL","OOP concepts"],
   },
   {
-    title: "Portfolio Website",
+    title: "Londone coffee House",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A standalone application for a London coffee house, built with Java, MySQL, and JavaFX. It offers a user-friendly interface for managing orders and inventory, ensuring seamless data handling and an intuitive experience.",
+    technologies: ["JAVA", "MySQL", "JAVAFX"],
   },
   {
-    title: "Blogging Platform",
+    title: "E-cafe Back-End",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "This Postman collection contains a set of API endpoints for interacting with a Java Point of Sale (POS) System. It includes functionality related to customers, items, and orders.",
+    technologies: ["JAVA", "Postman","mySQL"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "125 Sri Sandarshanarama Road Nagoda Kalutara",
+  phoneNo: "+94 165 8984 ",
+  email: "nipunnirmal67@gmil.com",
 };
