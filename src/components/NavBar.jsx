@@ -20,10 +20,10 @@ const NavBar = () => {
       animate={{opacity:100 ,x:-100}}
       transition={{duration:1, delay:1.2}}
     className='m-8 flex items-center justify-center gap-4 text-2xl'>
-    <FaLinkedin/>
-    <FaGithub/>
-    <FaFacebook/>
-    <FaInstagram/>
+    <FaLinkedin href='https://www.linkedin.com/in/nipun-nirmal-89529a24a/'/>
+    <FaGithub href='https://github.com/NirmalSamarasinghe'/>
+    <FaFacebook href='https://www.facebook.com/Nipun.Nirmal.Samrasinghe/'/>
+    <FaInstagram href='https://www.instagram.com/nipun.nirmal.samrasinghe/'/>
     </motion.div>
   </nav>
 }
