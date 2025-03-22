@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project4.jpg";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with a knack for crafting robust and scalable 
 web applications. I have honed my skills in front-end technologies like React and Next.js. My goal is to leverage 
-my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`
+my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile front-end developer with a passion for creating efficient and 
 user-friendly web applications. I have worked with a variety of technologies, including React, Next.js, HTML, CSS, and 
@@ -22,7 +22,7 @@ export const EDUCATION = [
     Engineering) program at the University of Bolton, Institute of Software Engineering, Panadura. This specialized 
     program has provided me with a comprehensive education in both theoretical and practical aspects of computer 
     science, focusing on the intricacies of software engineering.`,
-    technologies: ["Java", "MySQL", "React", "ReactNative","Angular"]
+    technologies: ["Java", "MySQL", "React", "ReactNative", "Angular"],
   },
   {
     year: "January-2019",
@@ -36,7 +36,6 @@ export const EDUCATION = [
     description: `Diploma in English Language and Literature (First Level): Completed the First Level at Aquinas College of Higher Studies, Borella. This qualification deepened 
     my understanding of English language and literature, enriching my ability to engage in nuanced communication and 
     analysis.`,
-
   },
   {
     year: "2018 - Present",
@@ -59,7 +58,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "Using OOP Concepts, I created a Connect 4 Game with Min Max Ai.with Monto Carlo Tree Search Algorithm.",
-    technologies: ["Java","JAVAFX","MySQL","OOP concepts"],
+    technologies: ["Java", "JAVAFX", "MySQL", "OOP concepts"],
   },
   {
     title: "Londone coffee House",
@@ -73,12 +72,12 @@ export const PROJECTS = [
     image: project4,
     description:
       "This Postman collection contains a set of API endpoints for interacting with a Java Point of Sale (POS) System. It includes functionality related to customers, items, and orders.",
-    technologies: ["JAVA", "Postman","mySQL"],
+    technologies: ["JAVA", "Postman", "mySQL"],
   },
 ];
 
 export const CONTACT = {
-  address: "125 Sri Sandarshanarama Road Nagoda Kalutara",
-  phoneNo: "+94 165 8984 ",
+  // address: "125 Sri Sandarshanarama Road Nagoda Kalutara",
   email: "nipunnirmal67@gmil.com",
+  phoneNo: "+94 70 165 8984 ",
 };
